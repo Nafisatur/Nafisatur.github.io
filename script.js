@@ -11,9 +11,13 @@ var options = {
     strings: [
         'Nafisatur Ramadhan'
     ],
-    typeSpeed: 40,
-    loop: false,
+    typeSpeed: 100,
+    loop: true,
     loopCount: Infinity,
+    backDelay: 2000,
 };
 
 var typed = new Typed('#hero-titles', options);
+
+// AOS
+AOS.init();

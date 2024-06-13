@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -55,24 +57,36 @@
         </div>
     </section>
     <section id="about">
+        <div data-aos="fade-up" data-aos-duration="500">
         <p class="section_text_p1">Tentang</p>
         <h1 class="title">Profil Saya</h1>
+    </div>
         <div class="section-container">
             <div class="about-details-container">
                 <div class="about-container">
-                    <div class="details-container">
+                    <div class="details-container" 
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="800">
                         <img src="/assets/experience.png" alt="Experience icon" class="icon"/>
                         <h3>Experience</h3>
                         <p>Distributor Pupuk</p><p>2020 - now</p> <br><p> UI/UX Desain </p> <p>2023-2024</p> 
                     </div>
-                    <div class="details-container">
+                    <div class="details-container" 
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="800">
                     <img src="/assets/education.png" alt="Education icon" class="icon"/>
                     <h3>Education</h3>
                     <p>SMA N UNGGUL ACEH TIMUR</p> <p>2017-2019</p> <br> <p>Universitas Teknologi Yogyakarta</p> <p>2019-2024</p>
                     </div>
                 </div>
-                <div class="text-container">
-                    <p>Saya seorang fresh graduate jurusan informatika dari Universitas Teknologi Yogyakarta memiliki ketertarikan dibidang frontend dikarenakan pengalaman keterampilan saya dalam perancangan antar muka yang sudah pernah saya tempuh dalam pembuatan sistem penebusan pupuk di CV. Putra Arba’in Berhad yang berdiri sebagai distributor pupuk. dari pengalaman tersebut memberikan saya banyak pembelajaran seperti pengetahuan saya terhadap html,css dan javascript. saya memiliki keingintahuan yang besar untuk mengembangkan pengetahuan yang saat ini saya miliki.</p>
+                <div class="text-container" 
+                data-aos="zoom-in"  
+                data-aos-duration="1200">
+                    <p>Saya seorang fresh graduate jurusan informatika dari Universitas Teknologi Yogyakarta memiliki ketertarikan dibidang frontend dikarenakan pengalaman keterampilan saya dalam perancangan antar muka yang sudah pernah saya tempuh dalam pembuatan sistem penebusan pupuk di CV. Putra Arbain Berhad yang berdiri sebagai distributor pupuk. dari pengalaman tersebut memberikan saya banyak pembelajaran seperti pengetahuan saya terhadap html,css dan javascript. saya memiliki keingintahuan yang besar untuk mengembangkan pengetahuan yang saat ini saya miliki.</p>
                 </div>
             </div>
         </div>
@@ -80,11 +94,16 @@
         />
     </section>
     <section id="experience">
+        <div data-aos="fade-up"
+        data-aos-duration="500">
         <p class="section_text_p1">Tentang</p>
         <h1 class="title">Pengalaman Saya</h1>
+        </div>
         <div class="experience-details-container">
             <div class="about-container">
-                <div class="details-container">
+                <div class="details-container" 
+                data-aos="fade-right"
+                data-aos-duration="800">
                     <h2 class="experience-sub-title">FrontEnd Development</h2>
                     <div class="article-container">
                         <article>
@@ -117,7 +136,9 @@
                         </article>
                     </div>
                 </div>
-                <div class="details-container">
+                <div class="details-container" 
+                data-aos="fade-left"
+                data-aos-duration="800">
                     <h2 class="experience-sub-title">BackEnd Development</h2>
                     <div class="article-container">
                         <article>
@@ -182,9 +203,14 @@
         />
     </section> -->
     <section id="contact">
+        <div data-aos="zoom-in"
+        data-aos-duration="500">
         <p class="section_text_p1">Tentang</p>
         <h1 class="title">Kontak Saya</h1>
-        <div class="contact-info-upper-container">
+    </div>
+        <div class="contact-info-upper-container"
+        data-aos="zoom-out"
+        data-aos-duration="800">
             <div class="contact-info-container">
             <img src="/assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
             <p><a href="mailto:nafissatur3@gmail.com">Examplemail@gmail.com</a></p>
@@ -210,6 +236,8 @@
     </footer>
     <!-- typed js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
